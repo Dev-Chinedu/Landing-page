@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.welcome {
+  position: relative;
+  background-color: #0b0a1cf6;
+  padding: 15px 30px;
+  border-bottom-left-radius: 50px;
+}
+.welcome nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome nav ul {
+  display: flex;
+  list-style: none;
+}
+.welcome nav ul li {
+  margin-inline: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.welcome nav ul li:hover {
+  background-color: #2cc884;
+  color: black;
+  font-weight: 600;
+}
+.welcome nav button {
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: 600;
+  border: none;
+  background-color: #2cc884;
+}
+.welcome .message {
+  color: white;
+}
+.welcome .title {
+  font-size: 60px;
+  margin-top: 50px;
+  text-transform: capitalize;
+  font-family: monospace;
+  /* word-spacing: 10px; */
+}
+.contain-other-msg {
+  display: flex;
+}
+.contain-other-msg .desc {
+  width: 30%;
+}
+.contain-other-msg .desc p {
+  margin: 10px 0;
+  line-height: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+.welcome .message .btn {
+  padding: 2px 4px 2px 1px;
+  background-color: white;
+  width: fit-content;
+  color: black;
+  font-weight: bold;
+  border-bottom-left-radius: 5px;
+}
+.welcome .message .btn button {
+  background-color: white;
+  padding: 12px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+  background-color: #2cc884;
+  transition: 0.5s;
+}
+.welcome .message .btn button:hover {
+  background-color: transparent;
+  transition: 0.5s;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.contain-img {
+  margin-top: 20px;
+  background-color: #2cc884;
+  width: 300px;
+  height: 56vh;
+  border-radius: 20px;
+  margin-left: 90px;
+}
+.contain-note {
+  margin: 20px 0 0 50px;
+}
+.note {
+  margin-left: 35px;
+  border-left: 2px solid #8fe9c2;
+  padding-inline: 20px;
+  width: 50%;
+}
+.note p {
+  padding-block: 10px;
+}
+.second .title {
+  font-family: monospace;
+  width: fit-content;
+  margin: 50px auto 10px auto;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+}
+.second .title span {
+  background-color: #2cc884;
+  display: block;
+  height: 40px;
+  margin-inline: 15px;
+  border-radius: 20px;
+  width: 70px;
+}
+.second .desc {
+  text-align: center;
+  padding-inline: 95px;
+  line-height: 25px;
+  font-weight: bold;
+  opacity: 0.78;
+}
